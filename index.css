@@ -1,0 +1,59 @@
+*{
+    margin: 1%;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(230, 238, 238);
+    padding-left: 10% ;
+    padding-right: 10% ;
+}
+
+.title{
+    
+    margin-left: 43%;
+    margin-right: 43%;
+    
+}
+.addbtn{
+   background-color: rgb(240, 138, 159);
+   color: white;
+   border-radius: 50% ;
+   margin-left: 50%;
+   margin-right: 50%;
+   
+   
+
+   
+}
+#addQueteCountiner{
+    margin-bottom: 5%;
+ 
+}
+#quote{
+    width: 98%;
+    max-width: 100%;
+    max-height: fit-content;
+    min-width: 95%;
+    
+}
+.qContiner{
+   
+  flex-direction: row;
+  flex: auto;
+  border: 5px solid rgba(45, 238, 100, 0.555);
+  border-radius: 10px  10px   ;
+  
+}
+.qContiner:hover{
+    box-shadow: 5px 5px rgb(192, 171, 211);
+}
+.qDelbtn{
+   
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 10px  10px   ;
+    
+
+}
