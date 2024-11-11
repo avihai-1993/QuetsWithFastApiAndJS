@@ -14,3 +14,10 @@ python -m fastapi dev .\ServerEndPoint.py
 python -m uvicorn ServerEndPoint:app --host "0.0.0.0" --port 8000
 
 go to localhost:8000/docs for swaggerui
+
+
+
+docker run --name demofastapiswagger -p 8000:8000 <your docker image that you build from code>
+
+
+docker stop demofastapiswagger && docker rm demofastapiswagger
