@@ -1,12 +1,13 @@
-FROM python:3.11-slim-buster
+#FROM python:3.11-slim-buster
+FROM bmltenabled/uvicorn-gunicorn-fastapi:python3.10-slim
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+#COPY requirements.txt requirements.txt
 
-RUN python -m pip install --upgrade pip
+#RUN python -m pip install --upgrade pip
 
-RUN pip install --no-cache-dir -r requirements.txt
+#RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
